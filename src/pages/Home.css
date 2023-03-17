@@ -1,0 +1,115 @@
+.home-container {
+    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+}
+
+.profile-container {
+    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+    height: 100%;
+    width: 20%;
+    min-width: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    object-fit: contain;
+    position: sticky;
+    top: 80px;
+  }
+
+.profile-img{
+
+    border-radius: 50%;
+    width: 75%;
+    max-width: 250px;
+    position: sticky;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.profile-container > h1 {
+    color: #fff;
+    font-size: 2rem;
+    align-items: center;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.profile-container > p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+}
+
+/* Social Icons */
+
+
+.profile-social-icons {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(50px, auto));
+    grid-template-rows: repeat(1, minmax(50px, auto));
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 0.75rem;
+}
+
+.icon-links {
+    color: #fff;
+    font-size: 30px;
+}
+
+.icon-links:hover {
+    font-size: 38px;
+    transition: all 0.2s ease-out;
+  }
+
+/*   
+.hero-btns {
+margin-top: 32px;
+}
+
+.hero-btns .btn {
+margin: 6px;
+}
+
+.fa-play-circle {
+margin-left: 4px;
+}
+
+@media screen and (max-width: 960px) {
+.hero-container > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+}
+}
+
+@media screen and (max-width: 768px) {
+.hero-container > h1 {
+    font-size: 50px;
+    margin-top: -100px;
+}
+
+.hero-container > p {
+    font-size: 30px;
+}
+
+.btn-mobile {
+    display: block;
+    text-decoration: none;
+}
+
+.btn {
+    width: 100%;
+}
+} */
